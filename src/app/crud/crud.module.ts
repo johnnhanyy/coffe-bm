@@ -11,25 +11,31 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
 import { MainComponent } from './pages/main/main.component';
 import { AboutComponent } from './components/about/about.component';
-import { HeadingComponent } from './components/heading/heading.component';
 import { ProductComponent } from './components/product/product.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { SubHeaderComponent } from './components/sub-header/sub-header.component';
 import { HotDrinksComponent } from './pages/hot-drinks/hot-drinks.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeadingComponent } from './components/heading/heading.component';
+import { CartPComponent } from './pages/cart-p/cart-p.component';
+import { CartComponent } from './components/cart/cart.component';
 @NgModule({
   declarations: [
     HeaderComponent,
+    HeadingComponent,
     ProductsComponent,
     FooterComponent,
     MainComponent,
     RegisterComponent,
     LoginComponent,
     AboutComponent,
-    HeadingComponent,
     ProductComponent,
     ProductDetailsComponent,
     SubHeaderComponent,
-    HotDrinksComponent
+    HotDrinksComponent,
+    NavbarComponent,
+    CartPComponent,
+    CartComponent,
   ],
   imports: [
     CommonModule,
